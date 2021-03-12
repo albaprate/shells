@@ -1,0 +1,16 @@
+read -p "introduce un numero: " dia 
+echo " el numero del dia es $dia"
+
+while [ $dia -lt 1 ] && [ $dia -gt 30 ]; do
+echo "el valor es incorrecto"
+ read -p "introduce un numero: " dia 
+done
+
+for i in lunes martes miercoles jueves viernes sabado domingo lunes martes miercoles jueves viernes sabado domingo; do
+    
+  
+done
+
+i=$i
+echo "el dia $dia es $i"
+

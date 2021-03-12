@@ -1,0 +1,18 @@
+read -p "introduce un numero: " valor
+echo "el numero introducido es $valor"
+
+ contador=0
+ suma=$valor
+
+while [ $valor != 0 ]; do
+    read -p "introduce un numero: " valor
+    
+    ((suma=$suma + $valor));
+    ((contador= $contador + 1));   
+ 
+done
+#calc $suma / $contador
+media=$(echo " $suma / $contador" | bc -l)
+#media=$(echo "scale=2; $suma / $contador" | bc -l)
+echo "$suma"
+echo "$media"

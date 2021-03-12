@@ -1,0 +1,10 @@
+read -p "introduce un numero: " valor
+echo "el numero instroducido es $valor"
+
+while [ $valor -lt 0 ]; do
+    read -p "introduce un numero: " valor
+
+done
+for (( c=0; c<=$valor; c++ )) do
+    echo "$c"
+done
