@@ -7,6 +7,7 @@ done
 secuencia=0
 continuar=true
 
+#while [ true ]; do en ves de continuar
 while [ $continuar ]; do
 for i in lunes martes miercoles jueves viernes sabado domingo; do
     
@@ -21,3 +22,5 @@ for i in lunes martes miercoles jueves viernes sabado domingo; do
 done
 continuar=false
 done
+
+#corregido
