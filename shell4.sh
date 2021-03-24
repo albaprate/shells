@@ -8,3 +8,8 @@ done
 for (( c=0; c<=$valor; c++ )) do
     echo "$c"
 done
+
+
+# for c in `sew 0 $valor`; do
+
+#ejerccio corregido

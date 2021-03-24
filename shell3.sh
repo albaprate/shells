@@ -9,7 +9,9 @@ if [ $nota -lt 5 ]; then
     echo "suspendido"
     else if [ $nota -lt 6 ]; then
       echo "aprobado"
-       else if [ $nota -le 8 ]; then
+      else if [$nota -lt 7]; then
+      echo "bien"
+       else if [ $nota -lt 9 ]; then
         echo "notable"
           else 
              echo "sobresaliente"
@@ -17,3 +19,6 @@ fi
 fi
 fi
 fi
+fi
+
+# ejercicio corregido, falta el else if de "bien"
